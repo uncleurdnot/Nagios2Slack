@@ -8,7 +8,7 @@ Nagios notifications for Slack, with formatted messages :
 * Set up an incoming webhook integration in your Slack workspace.</br>
 ( [https://my.slack.com/services/new/incoming-webhook/](https://my.slack.com/services/new/incoming-webhook/) )
 
-* Run install.sh
+* Run `sudo install.sh`
 
 * * Note, this expects nagios to be located at `/usr/local/nagios/`
 
