@@ -32,6 +32,9 @@ cp 'slack-service.cfg' "$COMMANDDIR"
 cp 'slack_service_notify.sh' "$NAGIOS_INSTALL/libexec"
 cp 'slack_host_notify.sh' "$NAGIOS_INSTALL/libexec"
 
+chmod 777 "$NAGIOS_INSTALL/libexec/slack_service_notify.sh"
+chmod 777 "$NAGIOS_INSTALL/libexec/slack_host_notify.sh"
+
 if $(systemctl restart nagios); then
         echo "Restarted Nagios"
 else
