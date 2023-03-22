@@ -14,4 +14,4 @@ Nagios notifications for Slack, with formatted messages :
 
 * Set up a new contact to use the new host and service notification commands.
 
-* Set up your contacts' `address1` to your preferred slack webhook
+* Set up your contacts' `address1` to your preferred slack webhook.  The benefit of this fork over the original code comes in the fact that you can define multiple slack webhooks via different contacts if different teams need to be contacted.
